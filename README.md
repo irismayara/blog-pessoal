@@ -12,3 +12,6 @@ atualização 2
   - conteúdos organizados com tags semânticas
   - formatação dos estilos com margin, padding, border, border-radius, box-shadow, etc
   - tabela criada com efeito zebrado
+  
+atualização 4
+  - seções que são exibidas/ocultadas dinamicamente com o uso de JavaScript
