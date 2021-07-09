@@ -17,21 +17,82 @@
         </nav>
     </header>
     <main>
-        <table>
-            <caption>Atualizações do projeto - Semana 7</caption>
-            <tr class="li"><td>O que foi feito</td><td>Onde foi feito</td></tr>
-            <tr><td>Formatação das fontes do site com fonte do Google Fonts</td><td>style.css</td></tr>
-            <tr class="li"><td>Organização do conteúdo das páginas utilizando tags semâticas</td><td>Em todas as páginas(index.html, creator.html, catalago.html, ...)</td></tr>
-            <tr><td>Utilização de bloco centralizado</td><td>Na tag footer de todas as páginas.</td></tr>
-            <tr class="li"><td>Utilização de sombras</td><td>Nas imagens do site.</td></tr>
-            <tr><td>Utilização de bordas arredondadas</td><td>Nas imagens do site.</td></tr>
-            <tr class="li"><td>Utilização de margens e preenchimentos</td><td>Na tag nav > a</td></tr>
-            <tr><td>Criação de tabela com efeito zebrado</td><td>Na página nova dev.html</td></tr>
-            <tr class="li"><td>Link para dev.html</td><td>No footer de todas as páginas.</td></tr>
-        </table>
+        <a href="#" onclick="ativar_secao(1)">Semana 7</a>
+        <section class="hidden">
+            <table>
+                <caption>Atualizações do projeto - Semana 7</caption>
+
+                <tr class="li">
+                    <td>O que foi feito</td>
+                    <td>Onde foi feito</td>
+                </tr>
+                <tr>
+                    <td>Formatação das fontes do site com fonte do Google Fonts</td>
+                    <td>style.css</td>
+                </tr>
+                <tr class="li">
+                    <td>Organização do conteúdo das páginas utilizando tags semâticas</td>
+                    <td>Em todas as páginas(index.html, creator.html, catalago.html, ...)</td>
+                </tr>
+                <tr>
+                    <td>Utilização de bloco centralizado</td>
+                    <td>Na tag footer de todas as páginas.</td>
+                </tr>
+                <tr class="li">
+                    <td>Utilização de sombras</td>
+                    <td>Nas imagens do site.</td>
+                </tr>
+                <tr>
+                    <td>Utilização de bordas arredondadas</td>
+                    <td>Nas imagens do site.</td>
+                </tr>
+                <tr class="li">
+                    <td>Utilização de margens e preenchimentos</td>
+                    <td>Na tag nav > a</td>
+                </tr>
+                <tr>
+                    <td>Criação de tabela com efeito zebrado</td>
+                    <td>Na página nova dev.html</td>
+                </tr>
+                <tr class="li">
+                    <td>Link para dev.html</td>
+                    <td>No footer de todas as páginas.</td>
+                </tr>
+
+            </table>
+        </section>
+        <a href="#" onclick="ativar_secao(2)">Semana 8</a>
+        <section class="hidden">
+            <table>
+                <caption>Atualizações do projeto - Semana 8</caption>
+
+                <tr class="li">
+                    <td>O que foi feito</td>
+                    <td>Onde foi feito</td>
+                </tr>
+                <tr>
+                    <td>Adição de três seções que são exibidas/ocultadas dinamicamente com o uso de JavaScript</td>
+                    <td>index.html e dev.html</td>
+                </tr>
+                <tr class="li">
+                    <td>Estilização das seções do item anterior</td>
+                    <td>style.css</td>
+                </tr>
+                <tr>
+                    <td>Adição de nova tabela com as alterações da semana</td>
+                    <td>dev.html</td>
+                </tr>
+            </table>
+        </section>
     </main>
     <footer>
         <p>Copyright – Suas Memórias SM. – 2021. Todos os direitos reservados.</p>
         <p><a href="dev.html">Desenvolvido por IrisMayara</a></p>
     </footer>
+
+    <script type="text/javascript">
+        function ativar_secao(num) {
+            document.querySelector("section:nth-of-type(" + num + ")").classList.toggle("visivel");
+        }
+    </script>
 </body>

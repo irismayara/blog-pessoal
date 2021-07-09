@@ -42,25 +42,28 @@
             </p>
             <p></p>
             <p>Criado por Iris Mayara em fevereiro de 2021, o pequeno negócio atende no site
-                <em>www.instagram.com/suasmemoriasc</em> e já conta com <mark>envios para mais de 6 estados</mark> do
+                <em>www.instagram.com/suasmemoriasc</em> e já conta com <a href="#"
+                    onclick="ativar_secao(1)"><mark>envios para mais de 6 estados</mark></a> do
                 Brasil
                 até o momento.
             </p>
-            <ul>
-                <li>Alagoas</li>
-                <li>Bahia</li>
-                <li>Goiás</li>
-                <li>Paraíba</li>
-                <li>Paraná</li>
-                <li>Rondônia</li>
-                <li>São Paulo</li>
-                <li>Tocantins</li>
-            </ul>
+            <section class="hidden">
+                <ul>
+                    <li>Alagoas</li>
+                    <li>Bahia</li>
+                    <li>Goiás</li>
+                    <li>Paraíba</li>
+                    <li>Paraná</li>
+                    <li>Rondônia</li>
+                    <li>São Paulo</li>
+                    <li>Tocantins</li>
+                </ul>
 
-            <iframe width="400" height="275" src="https://www.youtube.com/embed/3dd2i7w5ijM"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                <iframe width="400" height="275" src="https://www.youtube.com/embed/3dd2i7w5ijM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
         </section>
     </main>
 
@@ -68,6 +71,12 @@
         <p>Copyright – Suas Memórias SM. – 2021. Todos os direitos reservados.</p>
         <p><a href="dev.html">Desenvolvido por IrisMayara</a></p>
     </footer>
+
+    <script type="text/javascript">
+		function ativar_secao(num) {
+			document.querySelector(".hidden").classList.toggle("visivel");
+		}
+	</script>
 </body>
 
 </html>

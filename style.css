@@ -36,12 +36,41 @@ nav a:hover {
 }
 
 main {
-    width: 90%;
+    width: 75%;
     margin: 2em auto 3em auto;
 }
 
 main ol li {
     margin-bottom: 1.8em;
+}
+
+main > a {
+    display: block;
+	background-color: #E9C7BE;
+    padding: 1.5em;
+    font-size: 1em;
+    border-radius: 1.3em;
+    margin-bottom: 1em;
+}
+
+main > a:hover{
+    color: #FFF2E9;
+}
+
+main p > a {
+    font-size: 1em;
+}
+
+main p > a > mark:hover{
+    color: #FFF2E9;
+}
+
+section.hidden {
+    display: none;
+}
+
+section.hidden.visivel {
+    display: block;
 }
 
 footer p {
@@ -75,8 +104,9 @@ mark {
 
 table {
     border: 1px solid #694A35;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 1em auto;
     border-spacing: 0px;
+    width: 70%;
 }
 
 table caption {
