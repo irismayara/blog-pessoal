@@ -1,4 +1,7 @@
 # blog-pessoal
+
+-> https://irismayara.github.io/blog-pessoal/
+
 projeto desenvolvido durante a disciplina de Introdução às Tecnologias Web, do 1° período do curso de Sistemas de Informação, com implementações semanais, conforme assuntos dados em aula.
 
 para o professor:
